@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 variable "resource_group_name" {
   description = "The name of the resource group to create."
   type        = string
@@ -14,4 +15,22 @@ variable "storage_account_name" {
     description = "The name of the storage account to create."
     type       = string
     default    = "teststorageaccount"
+=======
+variable "resource_group_name" {
+  description = "The name of the resource group to create."
+  type        = string
+  default    = "test-storage"
+}
+
+variable "location" {
+    description = "The location of the resource group."
+    type       = string
+    default    = "eastus"
+}
+
+variable "storage_account_name" {
+    description = "The name of the storage account to create."
+    type       = string
+    default    = "teststorageaccount"
+>>>>>>> ddef39c (Added vars)
 }
